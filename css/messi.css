@@ -25,6 +25,9 @@ h1{
     width: auto;
 }
 
+
+/* Messi Barcelona */
+
 .stats{
     background-image: url(/img/messibar.jpg);
     height: 100vh;
@@ -32,13 +35,20 @@ h1{
 }
 
 .stats h2{
-    padding: 2.3rem;
+    padding: 2.3rem 2.3rem 0;
     text-align: end;
     color: #fff;
     font-size: 5.5rem;
     font-family: "Montserrat", sans-serif;
 }
 
+.stats .total{
+    margin: 4rem 0;
+}
+
+.stats .sinprom .goles{
+    margin: 4rem 4rem;
+}
 
 .stats .goles{
     color: white;
@@ -46,7 +56,7 @@ h1{
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    margin: 1rem 4rem;
+    margin: 0 4rem;
     font-family: "Montserrat", sans-serif;
     font-size: 1.8rem;
 }
@@ -78,7 +88,7 @@ h1{
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    margin: 1rem 4rem;
+    margin: 0 4rem;
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
 }
@@ -93,6 +103,93 @@ h1{
 }
 
 .stats .promedio .numprom{
+    border: 2px;
+    border-color: rgba(236, 10, 10, 0.774);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Fin Messi Barcelona */
+
+/* Messi PSG*/
+
+.statspsg{
+    background-image: url(/img/messipsg.jpg);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statspsg h2{
+    padding: 2.3rem 2.3rem 0;
+    text-align: start;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statspsg .total{
+    margin: 4rem 0;
+}
+
+.statspsg .sinprom .goles{
+    margin: 4rem 4rem;
+}
+
+.statspsg .goles{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statspsg .goles .barragol{
+    margin: 0 1rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(167, 29, 29, 0.7) 0%, rgba(255, 255, 255, 0.70) 60%, rgba(23, 41, 121, 0.7) 100%);
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statspsg .goles .numgol{
+    border: solid 2px;
+    border-color: rgba(31, 63, 209, 0.7);
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statspsg .promedio{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statspsg .promedio .barraprom{
+    margin: 0 1rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(167, 29, 29, 0.7) 0%, rgba(255, 255, 255, 0.70) 60%, rgba(23, 41, 121, 0.7) 100%);
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statspsg .promedio .numprom{
     border: 2px;
     border-color: rgba(236, 10, 10, 0.774);
     padding: 0.8rem;
