@@ -28,20 +28,26 @@
 
     <div class="equipos">
       <div class="escudos">
-        <img src="/img/barcelona.png" alt="" />
+        <a href="#barca"
+          ><img src="/img/barcelona.png" alt="Escudo del Bacerlona"
+        /></a>
       </div>
       <div class="escudos">
-        <img src="/img/psg.png" alt="" />
+        <a href="#psg"><img src="/img/psg.png" alt="Escudo del PSG" /></a>
       </div>
       <div class="escudos">
-        <img src="/img/inter.png" alt="" />
+        <a href="#miami"
+          ><img src="/img/inter.png" alt="Escudo del Inter de Miami"
+        /></a>
       </div>
       <div class="escudos">
-        <img src="/img/argentina.png" alt="" />
+        <a href="#arg"
+          ><img src="/img/argentina.png" alt="Escudo de Argentina"
+        /></a>
       </div>
     </div>
 
-    <div class="stats">
+    <div class="stats" id="barca">
       <h2>BARCELONA STATS</h2>
       <div class="total">
         <div class="goles">
@@ -75,7 +81,7 @@
       </div>
     </div>
 
-    <div class="statspsg">
+    <div class="statspsg" id="psg">
       <h2>PSG STATS</h2>
       <div class="total">
         <div class="goles">
@@ -109,7 +115,7 @@
       </div>
     </div>
 
-    <div class="statsmiami">
+    <div class="statsmiami" id="miami">
       <h2>INTER MIAMI STATS</h2>
       <div class="total">
         <div class="goles">
@@ -142,5 +148,123 @@
         </div>
       </div>
     </div>
+
+    <div class="statsarg" id="arg">
+      <h2>ARGENTINA STATS</h2>
+      <div class="total">
+        <div class="goles">
+          <div class="barragol"><p>GOLES</p></div>
+          <div class="numgol"><p>106</p></div>
+        </div>
+        <div class="promedio">
+          <div class="barraprom"><p>PROMEDIO</p></div>
+          <div class="numprom"><p>0,59</p></div>
+        </div>
+      </div>
+      <div class="total">
+        <div class="goles">
+          <div class="barragol"><p>ASISTENCIAS</p></div>
+          <div class="numgol"><p>54</p></div>
+        </div>
+        <div class="promedio">
+          <div class="barraprom"><p>PROMEDIO</p></div>
+          <div class="numprom"><p>0,30</p></div>
+        </div>
+      </div>
+      <div class="sinprom">
+        <div class="goles">
+          <div class="barragol"><p>PARTIDOS</p></div>
+          <div class="numgol"><p>180</p></div>
+        </div>
+        <div class="goles">
+          <div class="barragol"><p>TITULOS</p></div>
+          <div class="numgol"><p>5</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="statstotal">
+      <h2>TOTAL STATS</h2>
+      <div class="total">
+        <div class="goles">
+          <div class="barragol"><p>GOLES</p></div>
+          <div class="numgol"><p>833</p></div>
+        </div>
+        <div class="promedio">
+          <div class="barraprom"><p>PROMEDIO</p></div>
+          <div class="numprom"><p>0,79</p></div>
+        </div>
+      </div>
+      <div class="total">
+        <div class="goles">
+          <div class="barragol"><p>ASISTENCIAS</p></div>
+          <div class="numgol"><p>372</p></div>
+        </div>
+        <div class="promedio">
+          <div class="barraprom"><p>PROMEDIO</p></div>
+          <div class="numprom"><p>0,35</p></div>
+        </div>
+      </div>
+      <div class="sinprom">
+        <div class="goles">
+          <div class="barragol"><p>PARTIDOS</p></div>
+          <div class="numgol"><p>1057</p></div>
+        </div>
+        <div class="goles">
+          <div class="barragol"><p>TITULOS</p></div>
+          <div class="numgol"><p>43</p></div>
+        </div>
+        <div class="goles">
+          <div class="barragol"><p>PREMIOS</p></div>
+          <div class="numgol"><p>57</p></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/497b208e85.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+    <footer class="footer-redes">
+      <ul class="redes-sociales">
+        <li>
+          <a
+            href="https://www.instagram.com/nacho_iuzzo"
+            target="_blank"
+            class="instagram"
+            ><i class="fa fa-instagram"></i> Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/nacho_niuzzoli"
+            target="_blank"
+            class="twitter"
+            ><i class="fa-brands fa-x-twitter"></i> Twitter</a
+          >
+        </li>
+        <li>
+          <a href="https://wa.me/5491130616250" target="_blank" class="whatsapp"
+            ><i class="fa fa-whatsapp"></i> WhatsApp</a
+          >
+        </li>
+        <li>
+          <a href="mailto:ignaiuzzolino@gmail.com" class="gmail"
+            ><i class="fa fa-envelope"></i> Gmail</a
+          >
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

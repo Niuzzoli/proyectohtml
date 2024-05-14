@@ -287,3 +287,174 @@ h1{
 /* Fin Messi Miami */
 
 /* Messi Argentina */
+
+.statsarg{
+    background-image: url(/img/messiarg.jpg);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statsarg h2{
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statsarg .total{
+    margin: 4rem 0;
+}
+
+.statsarg .sinprom .goles{
+    margin: 4rem 4rem;
+}
+
+.statsarg .goles{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statsarg .goles .barragol{
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color:rgba(94, 180, 207, 1);
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsarg .goles .numgol{
+    border: solid 2px;
+    border-color: #13d4ed;
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statsarg .promedio{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statsarg .promedio .barraprom{
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color:rgba(143, 235, 247, 0.8);
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsarg .promedio .numprom{
+    border: 2px;
+    border-color: rgba(236, 10, 10, 0.774);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Fin Messi Argentina*/
+
+/* Messi Total */
+
+
+.statstotal{
+    background-image: url(/img/messitotal.png);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statstotal h2{
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statstotal .total{
+    margin: 4rem 0;
+}
+
+.statstotal .sinprom .goles{
+    margin: 4rem 4rem;
+}
+
+.statstotal .goles{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statstotal .goles .barragol{
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color:rgba(94, 180, 207, 1);
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statstotal .goles .numgol{
+    border: solid 2px;
+    border-color: #13d4ed;
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statstotal .promedio{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statstotal .promedio .barraprom{
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color:rgba(143, 235, 247, 0.8);
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statstotal .promedio .numprom{
+    border: 2px;
+    border-color: rgba(236, 10, 10, 0.774);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
