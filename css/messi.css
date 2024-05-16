@@ -5,14 +5,13 @@
     box-sizing: border-box;
 }
 
-
-h1{
+h1 {
     text-align: center;
     margin: 30px 0;
     font-family: "Montserrat", sans-serif;
 }
 
-.equipos{
+.equipos {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +19,7 @@ h1{
     margin: 50px 100px;
 }
 
-.escudos img{
+.escudos img {
     height: 13rem;
     width: auto;
 }
@@ -28,13 +27,13 @@ h1{
 
 /* Messi Barcelona */
 
-.stats{
+.stats {
     background-image: url(/img/messibar.jpg);
     height: 100vh;
     width: 99vw;
 }
 
-.stats h2{
+.stats h2 {
     padding: 2.3rem 2.3rem 0;
     text-align: end;
     color: #fff;
@@ -42,15 +41,15 @@ h1{
     font-family: "Montserrat", sans-serif;
 }
 
-.stats .total{
+.stats .total {
     margin: 4rem 0;
 }
 
-.stats .sinprom .goles{
+.stats .sinprom .goles {
     margin: 4rem 4rem;
 }
 
-.stats .goles{
+.stats .goles {
     color: white;
     display: flex;
     flex-direction: row;
@@ -61,16 +60,18 @@ h1{
     font-size: 1.8rem;
 }
 
-.stats .goles .barragol{
+.stats .goles .barragol {
     margin: 0 1rem;
     font-weight: 700;
     background: linear-gradient(to right, rgba(204, 39, 39, 0.45) 0%, rgba(173, 50, 50, 0.45) 53%, rgba(238, 55, 55, 0.450) 100%);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.9rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.stats .goles .numgol{
+.stats .goles .numgol {
     border: solid 2px;
     border-color: rgba(236, 10, 10, 0.774);
     border-radius: 50%;
@@ -82,7 +83,7 @@ h1{
     align-items: center;
 }
 
-.stats .promedio{
+.stats .promedio {
     color: white;
     display: flex;
     flex-direction: row;
@@ -93,16 +94,18 @@ h1{
     font-size: 1.2rem;
 }
 
-.stats .promedio .barraprom{
+.stats .promedio .barraprom {
     margin: 0 1rem;
     font-weight: 700;
     background-color: rgba(238, 55, 55, 0.450);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.2rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.stats .promedio .numprom{
+.stats .promedio .numprom {
     border: 2px;
     border-color: rgba(236, 10, 10, 0.774);
     padding: 0.8rem;
@@ -110,18 +113,20 @@ h1{
     font-weight: 600;
 }
 
+
 /* Fin Messi Barcelona */
+
 
 /* Messi PSG */
 
-.statspsg{
+.statspsg {
     background-image: url(/img/messipsg.jpg);
     margin: 1.5rem 0;
     height: 100vh;
     width: 99vw;
 }
 
-.statspsg h2{
+.statspsg h2 {
     padding: 2.3rem 2.3rem 0;
     text-align: start;
     color: #fff;
@@ -129,15 +134,15 @@ h1{
     font-family: "Montserrat", sans-serif;
 }
 
-.statspsg .total{
+.statspsg .total {
     margin: 4rem 0;
 }
 
-.statspsg .sinprom .goles{
+.statspsg .sinprom .goles {
     margin: 4rem 4rem;
 }
 
-.statspsg .goles{
+.statspsg .goles {
     color: white;
     display: flex;
     flex-direction: row-reverse;
@@ -148,16 +153,18 @@ h1{
     font-size: 1.8rem;
 }
 
-.statspsg .goles .barragol{
+.statspsg .goles .barragol {
     margin: 0 1rem;
     font-weight: 700;
     background: linear-gradient(to right, rgba(167, 29, 29, 0.7) 0%, rgba(255, 255, 255, 0.70) 60%, rgba(23, 41, 121, 0.7) 100%);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.9rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statspsg .goles .numgol{
+.statspsg .goles .numgol {
     border: solid 2px;
     border-color: rgba(31, 63, 209, 0.7);
     border-radius: 50%;
@@ -169,7 +176,7 @@ h1{
     align-items: center;
 }
 
-.statspsg .promedio{
+.statspsg .promedio {
     color: white;
     display: flex;
     flex-direction: row-reverse;
@@ -180,16 +187,18 @@ h1{
     font-size: 1.2rem;
 }
 
-.statspsg .promedio .barraprom{
+.statspsg .promedio .barraprom {
     margin: 0 1rem;
     font-weight: 700;
     background: linear-gradient(to right, rgba(167, 29, 29, 0.7) 0%, rgba(255, 255, 255, 0.70) 60%, rgba(23, 41, 121, 0.7) 100%);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.2rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statspsg .promedio .numprom{
+.statspsg .promedio .numprom {
     border: 2px;
     border-color: rgba(236, 10, 10, 0.774);
     padding: 0.8rem;
@@ -197,18 +206,20 @@ h1{
     font-weight: 600;
 }
 
+
 /* Fin Messi PSG */
+
 
 /* Messi Miami */
 
-.statsmiami{
+.statsmiami {
     background-image: url(/img/messimiami.jpg);
     margin: 1.5rem 0;
     height: 100vh;
     width: 99vw;
 }
 
-.statsmiami h2{
+.statsmiami h2 {
     padding: 2.3rem 2.3rem 0;
     text-align: end;
     color: #fff;
@@ -216,15 +227,15 @@ h1{
     font-family: "Montserrat", sans-serif;
 }
 
-.statsmiami .total{
+.statsmiami .total {
     margin: 4rem 0;
 }
 
-.statsmiami .sinprom .goles{
+.statsmiami .sinprom .goles {
     margin: 4rem 4rem;
 }
 
-.statsmiami .goles{
+.statsmiami .goles {
     color: white;
     display: flex;
     flex-direction: row;
@@ -235,16 +246,18 @@ h1{
     font-size: 1.8rem;
 }
 
-.statsmiami .goles .barragol{
+.statsmiami .goles .barragol {
     margin: 0 1rem;
     font-weight: 700;
     background: linear-gradient(90deg, rgba(12, 0, 10, 0.9) 0%, rgba(226, 132, 165, 0.8) 48%);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.9rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statsmiami .goles .numgol{
+.statsmiami .goles .numgol {
     border: solid 2px;
     border-color: rgba(236, 119, 160, 0.7);
     border-radius: 50%;
@@ -256,7 +269,7 @@ h1{
     align-items: center;
 }
 
-.statsmiami .promedio{
+.statsmiami .promedio {
     color: white;
     display: flex;
     flex-direction: row;
@@ -267,16 +280,18 @@ h1{
     font-size: 1.2rem;
 }
 
-.statsmiami .promedio .barraprom{
+.statsmiami .promedio .barraprom {
     margin: 0 1rem;
     font-weight: 700;
     background: linear-gradient(90deg, rgba(12, 0, 10, 0.9) 0%, rgba(226, 132, 165, 0.8) 48%);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.2rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statsmiami .promedio .numprom{
+.statsmiami .promedio .numprom {
     border: 2px;
     border-color: rgba(236, 10, 10, 0.774);
     padding: 0.8rem;
@@ -284,18 +299,20 @@ h1{
     font-weight: 600;
 }
 
+
 /* Fin Messi Miami */
+
 
 /* Messi Argentina */
 
-.statsarg{
+.statsarg {
     background-image: url(/img/messiarg.jpg);
     margin: 1.5rem 0;
     height: 100vh;
     width: 99vw;
 }
 
-.statsarg h2{
+.statsarg h2 {
     padding: 2.3rem 2.3rem 0;
     text-align: end;
     color: #fff;
@@ -303,15 +320,15 @@ h1{
     font-family: "Montserrat", sans-serif;
 }
 
-.statsarg .total{
+.statsarg .total {
     margin: 4rem 0;
 }
 
-.statsarg .sinprom .goles{
+.statsarg .sinprom .goles {
     margin: 4rem 4rem;
 }
 
-.statsarg .goles{
+.statsarg .goles {
     color: white;
     display: flex;
     flex-direction: row;
@@ -322,16 +339,18 @@ h1{
     font-size: 1.8rem;
 }
 
-.statsarg .goles .barragol{
+.statsarg .goles .barragol {
     margin: 0 1rem;
     font-weight: 700;
-    background-color:rgba(94, 180, 207, 1);
+    background-color: rgba(94, 180, 207, 1);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.9rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statsarg .goles .numgol{
+.statsarg .goles .numgol {
     border: solid 2px;
     border-color: #13d4ed;
     border-radius: 50%;
@@ -343,7 +362,7 @@ h1{
     align-items: center;
 }
 
-.statsarg .promedio{
+.statsarg .promedio {
     color: white;
     display: flex;
     flex-direction: row;
@@ -354,16 +373,18 @@ h1{
     font-size: 1.2rem;
 }
 
-.statsarg .promedio .barraprom{
+.statsarg .promedio .barraprom {
     margin: 0 1rem;
     font-weight: 700;
-    background-color:rgba(143, 235, 247, 0.8);
+    background-color: rgba(143, 235, 247, 0.8);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.2rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statsarg .promedio .numprom{
+.statsarg .promedio .numprom {
     border: 2px;
     border-color: rgba(236, 10, 10, 0.774);
     padding: 0.8rem;
@@ -371,19 +392,20 @@ h1{
     font-weight: 600;
 }
 
+
 /* Fin Messi Argentina*/
+
 
 /* Messi Total */
 
-
-.statstotal{
+.statstotal {
     background-image: url(/img/messitotal.png);
     margin: 1.5rem 0;
     height: 100vh;
     width: 99vw;
 }
 
-.statstotal h2{
+.statstotal h2 {
     padding: 2.3rem 2.3rem 0;
     text-align: end;
     color: #fff;
@@ -391,15 +413,15 @@ h1{
     font-family: "Montserrat", sans-serif;
 }
 
-.statstotal .total{
+.statstotal .total {
     margin: 4rem 0;
 }
 
-.statstotal .sinprom .goles{
+.statstotal .sinprom .goles {
     margin: 4rem 4rem;
 }
 
-.statstotal .goles{
+.statstotal .goles {
     color: white;
     display: flex;
     flex-direction: row;
@@ -410,16 +432,18 @@ h1{
     font-size: 1.8rem;
 }
 
-.statstotal .goles .barragol{
+.statstotal .goles .barragol {
     margin: 0 1rem;
     font-weight: 700;
-    background-color:rgba(94, 180, 207, 1);
+    background-color: rgba(94, 180, 207, 1);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.9rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statstotal .goles .numgol{
+.statstotal .goles .numgol {
     border: solid 2px;
     border-color: #13d4ed;
     border-radius: 50%;
@@ -431,7 +455,7 @@ h1{
     align-items: center;
 }
 
-.statstotal .promedio{
+.statstotal .promedio {
     color: white;
     display: flex;
     flex-direction: row;
@@ -442,19 +466,33 @@ h1{
     font-size: 1.2rem;
 }
 
-.statstotal .promedio .barraprom{
+.statstotal .promedio .barraprom {
     margin: 0 1rem;
     font-weight: 700;
-    background-color:rgba(143, 235, 247, 0.8);
+    background-color: rgba(143, 235, 247, 0.8);
+    animation-name: animacion;
+    animation-duration: 2s;
     padding: 0.2rem 1rem;
     width: 45vw;
     text-align: right;
 }
 
-.statstotal .promedio .numprom{
+.statstotal .promedio .numprom {
     border: 2px;
     border-color: rgba(236, 10, 10, 0.774);
     padding: 0.8rem;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+
+/* Fin Messi Total */
+
+@keyframes animacion {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 45vw;
+    }
 }

@@ -3,4 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cartas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+
+.cartas article {
+    border: solid 2px;
+    border-radius: 5%;
+    width: auto;
+    height: auto;
+    transition: ease 0.5s;
+    box-shadow: 2px 2px 8px grey;
+}
+
+.cartas article img {
+    border-radius: 5% 5% 0% 0%;
+}
+
+.cartas article h1 {
+    padding: 15px 0 0 15px;
+}
+
+.cartas article h6 {
+    padding: 15px 0 0 15px;
+}
+
+.cartas article p {
+    padding: 15px 0 10px 15px;
+}
+
+.cartas article:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 10px grey;
+    background: linear-gradient(red, green);
 }
