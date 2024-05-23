@@ -6,6 +6,19 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.carousel-item img {
+    width: 100vw;
+    height: 40vh;
+}
+
+@media (max-width:992px) {
+    .p-carousel {
+        padding-top: 10rem;
+    }
+}
+
+
+/*
 .cartas {
     display: flex;
     flex-direction: row;
@@ -43,3 +56,4 @@
     box-shadow: 6px 6px 10px grey;
     background: linear-gradient(red, green);
 }
+*/
