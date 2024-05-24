@@ -42,7 +42,7 @@ aside{
     width: 30%;
     float: right;
     border: solid 60px rgb(240, 240, 240);
-    height: 28.36rem;
+    height: auto;
 }
 
 iframe{
