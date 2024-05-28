@@ -6,54 +6,33 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.carousel-item img {
-    width: 100vw;
-    height: 40vh;
+.content p a{
+    text-decoration: none;
 }
 
-@media (max-width:992px) {
-    .p-carousel {
-        padding-top: 10rem;
-    }
+.content p{
+    text-align: justify;
 }
 
-
-/*
-.cartas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5rem 0;
+ul li a{
+    text-decoration: none;
 }
 
-.cartas article {
-    border: solid 2px;
-    border-radius: 5%;
+h2{
+    text-align: center;
+    margin: 2.5rem 0 1rem !important;
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: 500;
+}
+
+div .col-lg-4 img{
+    height: 350px;
     width: auto;
-    height: auto;
-    transition: ease 0.5s;
-    box-shadow: 2px 2px 8px grey;
 }
 
-.cartas article img {
-    border-radius: 5% 5% 0% 0%;
+.barra{
+    margin: 1.5rem;
 }
-
-.cartas article h1 {
-    padding: 15px 0 0 15px;
-}
-
-.cartas article h6 {
-    padding: 15px 0 0 15px;
-}
-
-.cartas article p {
-    padding: 15px 0 10px 15px;
-}
-
-.cartas article:hover {
-    transform: scale(1.1);
-    box-shadow: 6px 6px 10px grey;
-    background: linear-gradient(red, green);
-}
-*/

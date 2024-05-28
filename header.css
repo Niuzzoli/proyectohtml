@@ -10,12 +10,13 @@ header nav{
     justify-content: space-between; /* Ajusta el espacio entre los elementos */
     align-items: center;
     background-color: rgb(238, 18, 41);
-    height: 130px;
+    height: 100px;
     padding: 0 20px; /* Añade espacio interno para separar la imagen y la lista */
 }
 
 header nav a img{
-    width: 80px;
+    width: 3rem;
+    vertical-align: middle;
 }
 
 header nav ul{

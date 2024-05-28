@@ -8,6 +8,10 @@
 
 /* footer */
 
+footer{
+    margin-top: 3rem;
+}
+
 .footer-redes {
     background-color: #333;
     color: #fff;
