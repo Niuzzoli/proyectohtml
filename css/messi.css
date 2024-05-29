@@ -30,7 +30,7 @@ h1 {
 /* Messi Barcelona */
 
 .stats {
-    background-image: url(/img/messibar.jpg);
+    background-image: url(/img/messipag/messibar.jpg);
     height: 100vh;
     width: 99vw;
 }
@@ -122,7 +122,7 @@ h1 {
 /* Messi PSG */
 
 .statspsg {
-    background-image: url(/img/messipsg.jpg);
+    background-image: url(/img/messipag/messipsg.jpg);
     margin: 1.5rem 0;
     height: 100vh;
     width: 99vw;
@@ -215,7 +215,7 @@ h1 {
 /* Messi Miami */
 
 .statsmiami {
-    background-image: url(/img/messimiami.jpg);
+    background-image: url(/img/messipag/messimiami.jpg);
     margin: 1.5rem 0;
     height: 100vh;
     width: 99vw;
@@ -308,7 +308,7 @@ h1 {
 /* Messi Argentina */
 
 .statsarg {
-    background-image: url(/img/messiarg.jpg);
+    background-image: url(/img/messipag/messiarg.jpg);
     margin: 1.5rem 0;
     height: 100vh;
     width: 99vw;
@@ -492,6 +492,16 @@ h1 {
 
 iframe {
     margin: 3rem 0 3rem 0;
+}
+
+@media (max-width:979px) {
+    .stats,
+    .statsarg,
+    .statsmiami,
+    .statspsg,
+    .statstotal {
+        display: none;
+    }
 }
 
 @keyframes animacion {
