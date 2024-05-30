@@ -5,32 +5,32 @@
     box-sizing: border-box;
 }
 
-header nav{
+header nav {
     display: flex;
-    justify-content: space-between; /* Ajusta el espacio entre los elementos */
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(238, 18, 41);
     height: 100px;
-    padding: 0 20px; /* Añade espacio interno para separar la imagen y la lista */
+    padding: 0 20px;
 }
 
-header nav a img{
+header nav a img {
     width: 3rem;
     vertical-align: middle;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-header nav ul li{
+header nav ul li {
     display: inline-block;
     font-family: "Montserrat", sans-serif;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 0 15px;
@@ -38,6 +38,6 @@ header nav ul li a{
     transition: ease 0.5s;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: rgb(0, 0, 0);
 }
