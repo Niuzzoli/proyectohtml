@@ -7,10 +7,12 @@
 }
 
 #titulo {
-    margin: 3rem 0 3rem 0;
+    margin: 3rem 0;
     text-align: center;
 }
 
 iframe {
     margin: 3rem 0;
+    box-shadow:4px 4px 8px grey;
+    border-radius: 10px;
 }

@@ -4,3 +4,757 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem 0 !important;
+    font-family: "Montserrat", sans-serif;
+}
+
+.equipos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}
+
+.escudos img {
+    height: 13rem;
+    width: auto;
+    object-fit: contain;
+}
+
+
+/* Ronaldo Sporting */
+
+.statssport {
+    background-image: url(/img/ronaldopag/ronaldosport.png);
+    height: 100vh;
+    width: 99vw;
+}
+
+.statssport h2 {
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statssport .total {
+    margin: 4rem 0;
+}
+
+.statssport .sinprom .goles {
+    margin: 4rem 4rem;
+}
+
+.statssport .goles {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statssport .goles .barragol {
+    margin: 0 1rem;
+    font-weight: 700;
+    background: rgba(67, 135, 101, 0.7);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statssport .goles .numgol {
+    border: solid 2px;
+    border-color: rgba(226, 187, 84, 0.7);
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statssport .promedio {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statssport .promedio .barraprom {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(70, 105, 80, 0.75);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statssport .promedio .numprom {
+    border: 2px;
+    border-color: rgba(226, 187, 84, 0.7);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Fin Ronaldo Sporting */
+
+
+/* Ronaldo Manchester United */
+
+.statsmun {
+    background-image: url(/img/ronaldopag/ronaldomun.png);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statsmun h2 {
+    padding: 2.3rem 2.3rem 0;
+    text-align: start;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statsmun .total {
+    margin: 4rem 0;
+}
+
+.statsmun .sinprom .goles {
+    margin: 4rem 4rem;
+}
+
+.statsmun .goles {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statsmun .goles .barragol {
+    margin: 0 1rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(218, 2, 14, 0.7) 0%, rgba(135, 8, 4, 0.7) 100%);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: left;
+}
+
+.statsmun .goles .numgol {
+    border: solid 2px;
+    border-color: rgba(255, 230, 0, 0.7);
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statsmun .promedio {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statsmun .promedio .barraprom {
+    margin: 0 1rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(100, 2, 14, 0.7) 0%, rgba(85, 8, 4, 0.7) 100%);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: left;
+}
+
+.statsmun .promedio .numprom {
+    border: 2px;
+    border-color: rgba(236, 10, 10, 0.774);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Fin Ronaldo Manchester United */
+
+
+/* Ronaldo Real Madrid */
+
+.statsmadrid {
+    background-image: url(/img/ronaldopag/ronaldomadrid.png);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statsmadrid h2 {
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statsmadrid .total {
+    margin: 4rem 0;
+}
+
+.statsmadrid .sinprom .goles {
+    margin: 4rem 4rem;
+}
+
+.statsmadrid .goles {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statsmadrid .goles .barragol {
+    margin: 0 1rem;
+    font-weight: 700;
+    background: rgba(205, 180, 0, 0.6);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsmadrid .goles .numgol {
+    border: solid 2px;
+    border-color: rgba(0, 71, 154, 0.7);
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statsmadrid .promedio {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statsmadrid .promedio .barraprom {
+    margin: 0 1rem;
+    font-weight: 700;
+    background: rgba(180, 150, 0, 0.6);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsmadrid .promedio .numprom {
+    border: 2px;
+    border-color: rgba(255, 22, 67, 0.7);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Fin Ronaldo Real Madrid */
+
+
+/* Ronaldo Juventus */
+
+.statsjuve {
+    background-image: url(/img/ronaldopag/ronaldojuve.png);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statsjuve h2 {
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statsjuve .total {
+    margin: 4rem 0;
+}
+
+.statsjuve .sinprom .goles {
+    margin: 4rem 4rem;
+}
+
+.statsjuve .goles {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statsjuve .goles .barragol {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(10, 10, 10, 0.7);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsjuve .goles .numgol {
+    border: solid 2px;
+    border-color: #fff;
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statsjuve .promedio {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statsjuve .promedio .barraprom {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(50, 50, 50, 0.6);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsjuve .promedio .numprom {
+    border: 2px;
+    border-color: #fff;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Fin Ronaldo Juventus */
+
+
+/* Ronaldo Al Nassr */
+
+.statsnassr {
+    background-image: url(/img/ronaldopag/ronaldonassr.png);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statsnassr h2 {
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statsnassr .total {
+    margin: 4rem 0;
+}
+
+.statsnassr .sinprom .goles {
+    margin: 4rem 4rem;
+}
+
+.statsnassr .goles {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statsnassr .goles .barragol {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(94, 180, 207, 1);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsnassr .goles .numgol {
+    border: solid 2px;
+    border-color: #13d4ed;
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statsnassr .promedio {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statsnassr .promedio .barraprom {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(143, 235, 247, 0.8);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statsnassr .promedio .numprom {
+    border: 2px;
+    border-color: rgba(236, 10, 10, 0.774);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Fin Ronaldo Al Nassr */
+
+
+/* Ronaldo Portugal */
+
+.statspor {
+    background-image: url(/img/ronaldopag/ronaldopor.jpg);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statspor h2 {
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statspor .total {
+    margin: 4rem 0;
+}
+
+.statspor .sinprom .goles {
+    margin: 4rem 4rem;
+}
+
+.statspor .goles {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statspor .goles .barragol {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(94, 180, 207, 1);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statspor .goles .numgol {
+    border: solid 2px;
+    border-color: #13d4ed;
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statspor .promedio {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statspor .promedio .barraprom {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(143, 235, 247, 0.8);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statspor .promedio .numprom {
+    border: 2px;
+    border-color: rgba(236, 10, 10, 0.774);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Fin Ronaldo Portugal */
+
+
+/* Ronaldo Total */
+
+.statstotal {
+    background-image: url(/img/messitotal.png);
+    margin: 1.5rem 0;
+    height: 100vh;
+    width: 99vw;
+}
+
+.statstotal h2 {
+    padding: 2.3rem 2.3rem 0;
+    text-align: end;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.statstotal .total {
+    margin: 4rem 0;
+}
+
+.statstotal .sinprom .goles {
+    margin: 4rem 4rem;
+}
+
+.statstotal .goles {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+}
+
+.statstotal .goles .barragol {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(94, 180, 207, 1);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.9rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statstotal .goles .numgol {
+    border: solid 2px;
+    border-color: #13d4ed;
+    border-radius: 50%;
+    padding: 0.8rem;
+    height: 8vh;
+    width: 8vh;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.statstotal .promedio {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 0 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.statstotal .promedio .barraprom {
+    margin: 0 1rem;
+    font-weight: 700;
+    background-color: rgba(143, 235, 247, 0.8);
+    animation-name: animacion;
+    animation-duration: 2s;
+    padding: 0.2rem 1rem;
+    width: 45vw;
+    text-align: right;
+}
+
+.statstotal .promedio .numprom {
+    border: 2px;
+    border-color: rgba(236, 10, 10, 0.774);
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.celu {
+    display: none;
+}
+
+
+/* Fin Messi Total */
+
+iframe {
+    margin: 3rem 0;
+    box-shadow:4px 4px 8px grey;
+    border-radius: 10px;
+}
+
+@media (max-width:1025px) {
+    .statssport,
+    .statsmun,
+    .statsmadrid,
+    .statsjuve,
+    .statsnassr, 
+    .statspor {
+        display: none;
+    }
+    .escudos {
+        padding: 0 0 1rem 0;
+    }
+    .celu {
+        display: block;
+    }
+    .celu h2 {
+        margin: 1rem 2rem;
+    }
+    .celu .sport {
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: rgba(204, 39, 39, 0.9);
+    }
+    .celu .mun {
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: rgba(23, 41, 121, 0.9);
+    }
+    .celu .madrid {
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: rgba(226, 132, 165, 0.9);
+    }
+    .celu .juve {
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: rgba(94, 180, 207, 0.9);
+    }
+    .celu .nassr {
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: rgba(94, 180, 207, 0.9);
+    }
+    .celu .por {
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: rgba(94, 180, 207, 0.9);
+    }
+    .celu ul {
+        margin: 0 2rem;
+    }
+    .celu ul li {
+        line-height: 2rem;
+        list-style: none;
+    }
+}
+
+@keyframes animacion {
+    0% {
+        width: 12vw;
+    }
+    100% {
+        width: 45vw;
+    }
+}
