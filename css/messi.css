@@ -163,7 +163,7 @@ h1 {
     animation-duration: 2s;
     padding: 0.9rem 1rem;
     width: 45vw;
-    text-align: right;
+    text-align: left;
 }
 
 .statspsg .goles .numgol {
@@ -197,7 +197,7 @@ h1 {
     animation-duration: 2s;
     padding: 0.2rem 1rem;
     width: 45vw;
-    text-align: right;
+    text-align: left;
 }
 
 .statspsg .promedio .numprom {
@@ -500,7 +500,7 @@ iframe {
     border-radius: 10px;
 }
 
-@media (max-width:979px) {
+@media (max-width:1025px) {
     .stats,
     .statsarg,
     .statsmiami,
